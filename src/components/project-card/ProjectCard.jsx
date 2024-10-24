@@ -11,7 +11,7 @@ const ProjectCard = ({project}) => {
          
          <div className='overflow-hidden px-4 lg:px-8 py-4 lg:py-8'>
             <code className='font-mono text-xs md:text-sm lg:text-base'>
-               <img src={noise} alt="Abstract" width={500} height={500} className='absolute top-0 left-0 bg-repeat w-full h-full'/>
+               <img src={noise} alt="Abstract" width={500} height={500} className='absolute top-0 left-0 bg-repeat w-full h-full opacity-20'/>
                
                <div>
                   <div className='bg-violet-500 text-white rounded-full inline-block px-2'>{project.id}</div>
